@@ -1,0 +1,15 @@
+my_dict = {'A':21, 'B':57, 'C':36}
+print(my_dict)
+print(my_dict['B'])
+print(my_dict.get('D', 'Такого ключа нет'))
+my_dict.update({'F':44, 'G': 98})
+print(my_dict)
+my_dict.pop('C')
+print(my_dict)
+my_set = {1,2,3,4,2,3,1,'a','d','c',('d','c'), ('d','c'), 'a','b'}
+print(my_set)
+my_set.add('FF')
+my_set.add(55)
+print(my_set)
+my_set.discard(1)
+print(my_set)
